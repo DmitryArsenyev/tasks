@@ -21,7 +21,7 @@ class Hare(Mammal):
         print('Прыгает')
 
 animal = Mammal()
-animal.move() # Двигается
+animal.move()
 hare = Hare()
 hare.move()
 
@@ -48,3 +48,19 @@ if __name__ == '__main__':
      print(mul(3, 3))
      print(delit(8,2))
      print(delit(8,2)- mul(3,3))
+
+
+
+
+
+
+
+class SomeClass(object):
+    pass
+
+def squareMethod(self, x):
+    return x*x
+
+SomeClass.square = squareMethod
+obj = SomeClass()
+obj.square(5)
