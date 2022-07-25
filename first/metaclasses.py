@@ -1,3 +1,5 @@
+
+
 class MetaClass(type):
     # выделение памяти для класса
     def __new__(cls, name, bases, dict):
